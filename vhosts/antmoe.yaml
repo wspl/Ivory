@@ -1,0 +1,20 @@
+host:
+  - ant.moe
+  - www.ant.moe
+
+ssl:
+  force: false
+  cert: 'path-to-cert/example.crt'
+  key: 'path-to-key/example.key'
+
+reverse:
+  target: 'http://127.0.0.1:8080'
+
+cache:
+  - filter: static-requirement
+    local:
+      maxAge: 1 day
+  - filter: static-attachment
+    remote:
+      target: 'https://antmoe.b0.upaiyun.com'
+      rewrite: true

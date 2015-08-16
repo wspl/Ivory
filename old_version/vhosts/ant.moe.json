@@ -1,0 +1,14 @@
+{
+  "host": "ant.moe",
+
+  "targetHost": "127.0.0.1",
+  "targetPort": 8080,
+
+  "SSL": {
+    "cert": "../ant.moe.ssl/cert.crt",
+    "key": "../ant.moe.ssl/key.key",
+    "ca": "../ant.moe.ssl/ca.crt"
+  },
+
+  "redirectMirrors": "https://antmoe.b0.upaiyun.com"
+}

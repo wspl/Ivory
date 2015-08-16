@@ -1,0 +1,10 @@
+host:
+  - fuckpd.ant.moe
+
+reverse:
+  target: 'http://127.0.0.1:8080'
+
+cache:
+  - filter: default
+    local:
+      maxAge: 5 min
